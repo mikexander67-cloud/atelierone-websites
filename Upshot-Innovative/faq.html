@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ | Upshot Innovatives</title>
+<meta name="description" content="Frequently asked questions about working with Upshot Innovatives.">
+<meta name="keywords" content="freelance FAQ">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  .gold { color: #C9A961; }
+  .bg-gold { background-color: #C9A961; }
+</style>
+</head>
+<body class="bg-white text-gray-900">
+
+<nav class="bg-black text-white sticky top-0 z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold"><span class="gold">Upshot</span> Innovatives</a>
+    <button id="menuBtn" class="md:hidden text-2xl" aria-label="Menu">&#9776;</button>
+    <ul class="hidden md:flex space-x-8 text-sm tracking-wide">
+      <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+      <li><a href="about.html" class="hover:text-yellow-400">About</a></li>
+      <li><a href="services.html" class="hover:text-yellow-400">Services</a></li>
+      <li><a href="faq.html" class="gold">FAQ</a></li>
+      <li><a href="contact.html" class="hover:text-yellow-400">Contact</a></li>
+    </ul>
+  </div>
+  <ul id="mobileMenu" class="hidden md:hidden bg-black px-6 pb-4 space-y-3">
+    <li><a href="index.html" class="block">Home</a></li>
+    <li><a href="about.html" class="block">About</a></li>
+    <li><a href="services.html" class="block">Services</a></li>
+    <li><a href="faq.html" class="block gold">FAQ</a></li>
+    <li><a href="contact.html" class="block">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="bg-black text-white py-24 px-6 text-center">
+  <p class="gold tracking-widest text-sm uppercase mb-3">Helpful Answers</p>
+  <h1 class="text-4xl md:text-5xl font-bold">Frequently Asked Questions</h1>
+</section>
+
+<!-- FAQ List -->
+<section class="py-20 px-6 max-w-4xl mx-auto">
+  <div class="space-y-4">
+    <details class="bg-gray-50 p-6 shadow group">
+      <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">What regions do you serve?<span class="gold ml-4">+</span></summary>
+      <p class="mt-4 text-gray-700">We work with clients in Mauritius, Rodrigues, and Nigeria, plus international clients via Upwork.</p>
+    </details>
+    <details class="bg-gray-50 p-6 shadow">
+      <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">How long does a project take?<span class="gold ml-4">+</span></summary>
+      <p class="mt-4 text-gray-700">Most projects run between 2 and 8 weeks depending on scope. Timelines are confirmed during discovery.</p>
+    </details>
+    <details class="bg-gray-50 p-6 shadow">
+      <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">Do you handle data protection compliance?<span class="gold ml-4">+</span></summary>
+      <p class="mt-4 text-gray-700">Yes. We follow Mauritius Data Protection Act guidelines and corporate governance best practices.</p>
+    </details>
+    <details class="bg-gray-50 p-6 shadow">
+      <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">Which languages do you work in?<span class="gold ml-4">+</span></summary>
+      <p class="mt-4 text-gray-700">We deliver content in English, French, and Yoruba.</p>
+    </details>
+    <details class="bg-gray-50 p-6 shadow">
+      <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">How do I get started?<span class="gold ml-4">+</span></summary>
+      <p class="mt-4 text-gray-700">Visit our Contact page and send a brief message about your project. We respond within two business days.</p>
+    </details>
+    <details class="bg-gray-50 p-6 shadow">
+      <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">Do you offer ongoing support?<span class="gold ml-4">+</span></summary>
+      <p class="mt-4 text-gray-700">Yes. We provide post-launch maintenance and content updates on flexible terms.</p>
+    </details>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-black text-white py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6">Still Have Questions?</h2>
+  <a href="contact.html" class="inline-block bg-gold text-black px-10 py-4 font-semibold hover:bg-yellow-500 transition">Reach Out</a>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-10 px-6">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+    <p>&copy; 2025 Upshot Innovatives. All rights reserved.</p>
+    <p class="mt-4 md:mt-0">Mauritius &middot; Rodrigues &middot; Nigeria</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('menuBtn').addEventListener('click', function() {
+    document.getElementById('mobileMenu').classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
