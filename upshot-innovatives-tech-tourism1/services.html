@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An overview of freelance services offered by Upshot Innovatives.">
+<meta name="keywords" content="freelance services overview">
+<title>Services | Upshot Innovatives</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #f5f5f5; }
+.serif { font-family: 'Playfair Display', serif; }
+.gold { color: #c9a961; }
+.bg-gold { background-color: #c9a961; }
+.border-gold { border-color: #c9a961; }
+.hover-gold:hover { color: #c9a961; }
+html { scroll-behavior: smooth; }
+</style>
+</head>
+<body class="antialiased">
+
+<nav class="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-sm border-b border-gold/20">
+  <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+    <a href="index.html" class="serif text-2xl font-bold"><span class="gold">Upshot</span> Innovatives</a>
+    <div class="hidden md:flex space-x-10 text-sm tracking-wide">
+      <a href="index.html" class="hover-gold transition">Home</a>
+      <a href="about.html" class="hover-gold transition">About</a>
+      <a href="services.html" class="gold">Services</a>
+      <a href="faq.html" class="hover-gold transition">FAQ</a>
+      <a href="contact.html" class="hover-gold transition">Contact</a>
+    </div>
+    <button id="menuBtn" class="md:hidden gold text-2xl">&#9776;</button>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden bg-black border-t border-gold/20 px-6 py-4 space-y-3">
+    <a href="index.html" class="block hover-gold">Home</a>
+    <a href="about.html" class="block hover-gold">About</a>
+    <a href="services.html" class="block gold">Services</a>
+    <a href="faq.html" class="block hover-gold">FAQ</a>
+    <a href="contact.html" class="block hover-gold">Contact</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="pt-32 pb-16 bg-zinc-950">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <p class="gold tracking-[0.3em] text-sm mb-6">CAPABILITIES</p>
+    <h1 class="serif text-5xl md:text-6xl font-bold mb-6">Our <span class="italic gold">Services</span></h1>
+    <p class="text-gray-300 max-w-2xl mx-auto">A focused suite of freelance offerings designed for measurable outcomes.</p>
+  </div>
+</section>
+
+<!-- Services Overview -->
+<section class="py-20 bg-black">
+  <div class="max-w-6xl mx-auto px-6 space-y-8">
+    <div class="grid md:grid-cols-3 gap-6 items-center p-8 border border-gold/20">
+      <div class="gold serif text-5xl">01</div>
+      <div class="md:col-span-2">
+        <h3 class="serif text-2xl font-bold mb-2">Web Development</h3>
+        <p class="text-gray-400">Responsive, accessible websites for businesses, startups and public institutions.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6 items-center p-8 border border-gold/20">
+      <div class="gold serif text-5xl">02</div>
+      <div class="md:col-span-2">
+        <h3 class="serif text-2xl font-bold mb-2">Digital Strategy</h3>
+        <p class="text-gray-400">Roadmaps, audits and validation support for early-stage and growth ventures.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6 items-center p-8 border border-gold/20">
+      <div class="gold serif text-5xl">03</div>
+      <div class="md:col-span-2">
+        <h3 class="serif text-2xl font-bold mb-2">Content & Copywriting</h3>
+        <p class="text-gray-400">Plain-language writing in English, French and Yoruba.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6 items-center p-8 border border-gold/20">
+      <div class="gold serif text-5xl">04</div>
+      <div class="md:col-span-2">
+        <h3 class="serif text-2xl font-bold mb-2">Brand Identity</h3>
+        <p class="text-gray-400">Logos, palettes and visual systems that feel calm and authoritative.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6 items-center p-8 border border-gold/20">
+      <div class="gold serif text-5xl">05</div>
+      <div class="md:col-span-2">
+        <h3 class="serif text-2xl font-bold mb-2">Consultation</h3>
+        <p class="text-gray-400">One-on-one sessions for founders and decision-makers needing direction.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 bg-zinc-950 border-t border-gold/20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="serif text-4xl font-bold mb-6">Ready to Discuss Your Project?</h2>
+    <p class="text-gray-400 mb-10">Tell us what you need and we'll respond with clarity.</p>
+    <a href="contact.html" class="inline-block bg-gold text-black px-10 py-4 font-medium tracking-wider hover:bg-yellow-600 transition">REQUEST A QUOTE</a>
+  </div>
+</section>
+
+<footer class="bg-black border-t border-gold/20 py-10">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p class="text-gray-500 text-sm">&copy; 2025 Upshot Innovatives. All rights reserved.</p>
+    <p class="text-gray-500 text-sm">Mauritius &middot; Rodrigues &middot; Nigeria</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('menuBtn').addEventListener('click', () => {
+  document.getElementById('mobileMenu').classList.toggle('hidden');
+});
+</script>
+</body>
+</html>
